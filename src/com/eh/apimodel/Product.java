@@ -1,4 +1,4 @@
-package com.eh.api;
+package com.eh.apimodel;
 
 public class Product
 {

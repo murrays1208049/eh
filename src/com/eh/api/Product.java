@@ -3,9 +3,9 @@ package com.eh.api;
 public class Product
 {
 	private int id = 0;
-	
-	private String name="";
-	
+	private String name = "";
+	private int velocity = 0;
+
 	public String getUtil()
 	{
 		return this.util;
@@ -16,7 +16,7 @@ public class Product
 		this.util = util;
 	}
 
-	private String util="";
+	private String util = "";
 
 	public String getName()
 	{
@@ -36,6 +36,16 @@ public class Product
 	public void setId(int id)
 	{
 		this.id = id;
+	}
+
+	public void input(int value)
+	{
+		this.velocity = value;
+	}
+
+	public int output()
+	{
+		return this.velocity;
 	}
 
 }
